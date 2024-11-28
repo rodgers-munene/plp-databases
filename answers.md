@@ -1,27 +1,7 @@
 # Database Management Systems (DBMS)
-
-## 1. Components of a DBMS
-A DBMS consists of several key components that work together to manage data efficiently and securely:
-
-### a. **Database Engine**
-- The core service for accessing and processing data.
-- Handles data storage, retrieval, and update operations.
-
-### b. **Database Schema**
-- Defines the structure of the database, including tables, columns, and relationships.
-- Acts as a blueprint for the database organization.
-
-### c. **Query Processor**
-- Interprets and executes database queries written in SQL.
-- Optimizes query performance and execution plans.
-
-### d. **Transaction Manager**
-- Ensures the ACID (Atomicity, Consistency, Isolation, Durability) properties of transactions.
-- Manages concurrent access and data integrity.
-
-### e. **Database Management Tools**
-- Provides tools for database administration, backup, and recovery.
-- Includes utilities for monitoring, tuning, and security management.
+1. Software: The computer programs that manage the database, including the DBMS itself and supporting software. 
+2. Hardware: The physical infrastructure, such as computers, storage devices, and other electronic components. 
+3. Data: The raw facts or numbers stored in the database.
 
 ## 2. What is a Relational Database?
 A relational database is a type of database that stores data in tables with rows and columns. Each table represents a different entity, and relationships between tables are established through keys.
